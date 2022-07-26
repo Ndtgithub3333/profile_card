@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+:root {
+    --pink-color: #f2726a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #4daf54, #3d8880);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card_profile_1 {
+    width: 300px;
+    height: 400px;
+    background-color: #242628;
+    border-radius: 10px;
+    margin: 0 30px;
+    text-align: center;
+    overflow: hidden; 
+    
+
+}
+
+.card_img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden; /* chong tran anh */
+    margin: 0 auto; /* can giua */
+    border: 4px solid var(--pink-color);
+    border-radius: 50%;
+    transform: translateY(25px); 
+    transition: 0.4s;
+}
+
+.card_img:hover {
+    width: 100%;
+    height: 100%;
+    border: unset;
+    border-radius: unset;
+    transform: unset;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: center; */
+
+}
+
+.name_1 {
+    margin-top: 40px;
+    color: white;
+    transition: 0.25s;
+
+
+}
+
+.name_1:hover {
+    color: #4daf54;
+}
+
+.position_1 {
+    color: var(--pink-color);
+}
+
+.contact_1{
+    border: 1px solid var(--pink-color);
+    border-radius: inherit;
+    padding: 10px 20px;
+    background-color: #242628;
+    color: white;
+    transition: 0.5s;
+}
+
+.contact_1:hover {
+    background-color: var(--pink-color);
+}
+
+.socials_list a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 12px;
+    
+}
+.socials_list i {
+    padding: 25px 18px;
+    transition: 0.25s;
+}
+
+.socials_list .bxl-facebook:hover {
+    color: #f2726a;
+}
+.socials_list .bxl-youtube:hover {
+    color: #f2726a;
+}
+.socials_list .bxl-tiktok:hover {
+    color: #f2726a;
+}
+.socials_list .bxl-github:hover {
+    color: #f2726a;
+}
+
+.img_2 {
+    /* transform: translateY(20px); */
+}
